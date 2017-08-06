@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;  
+}
+
+ul, h1, h2, h3{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav li{
+  margin: 0 5px 0 5px;
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
+
+.navbar-header{
+  text-align: center;
+  background: orange;
+  margin: 0 5px 0 5px;
+  padding: 5px 0 5px 0;
+}
+
+
+.floated-news{
+  width: 70%;
+  text-align: center;
+  float: left;
+}
+
+.news-body{
+  width: 70%;
+  text-align: center;
+}
+
+.news-section{
+  width: 50%;
+  text-align: center;
+  float: left;
+}
+
+.sidebar{
+  width: 28%;
+  float: left;
+  margin-left: 1em;
+}
+
+.headlines-btn{
+  background: grey;
+  padding: 1em;
+  text-align: center;
+  color: white;
+}
+
+.square-red{
+  position: relative;
+  top: 7px;
+  float: left;
+  background: red;
+  width: 5px;
+  height: 5px;
+}
+
+.separator{
+  border-bottom: .5em solid rgba(0,0,0,.1);
+  width:100%;
+}
+
+.news-header{
+  border-bottom: .1em solid rgba(0,0,0,.3);
+}
+
+.clearfix{
+  clear: both;
+}
+
+.footer{
+  width: 100%;
+  background: black;
+  color: white;
+}
+
+.footer-1{
+    width: 25%;
+    float: left;
+    border-right: .1em solid white;
+}
+
+.footer-inline{
+  float: left;
+  width: 75%;
+  border-bottom: .1em solid white;
+}
+
+.footer-inline li{
+   float: left;
+   margin: 0 .2em 0 .em;
+}
+
+@media screen and (max-width: 750px){
+ .sidebar{
+   display: none;
+ }
+ 
+ .floated-news, .news-body{
+   width: 100%;
+ }
+ 
+ .nav li{
+  
+  }
+}
+
+
+
